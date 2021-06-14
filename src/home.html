@@ -1,0 +1,126 @@
+<html>
+<head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0; 
+            box-sizing:border-box;
+        }
+        body
+        {
+            background-image: url('./images/adopt.jpg');
+ 	        background-size:cover;
+ 	        background-position: center;
+ 	        font-family: sans-serif;
+            text-align: center;
+        
+        }
+        .menu-bar
+        {
+	        background:rgb(106, 113, 185);
+            opacity: 74%;
+	        text-align: center;
+	        height:60px;
+            box-shadow: 0 8px 16px rgba(28, 16, 134, 0.397);
+        }
+        .menu-bar ul
+        {
+	        display: inline-flex;
+	        list-style:none;
+	        color:#fff;
+        }
+        .menu-bar ul li
+        {
+    	    width: 180px;
+    	    margin: 8px;
+    	    padding: 10px;
+        }
+        .menu-bar ul li a
+        {
+    	    text-decoration:none;
+    	    color:#fff;
+        }
+        .active, .menu-bar ul li:hover
+        {
+    	    background:hsl(318, 65%, 36%);
+    	    border-radius: 7%; 
+        }
+        /* .menu-bar .fa
+        {
+    	    margin-right:3px;
+        } */
+
+        .sub-menu-1
+        {
+            display: none;
+            z-index:2;
+            border-radius: 5%;
+        }
+        /* .menu-bar ul li:hover .sub-menu-1
+        {
+            display:block;
+            position:absolute;
+            background: rgb(80,10,60);
+            margin-top:40px;    
+            margin-left:-15px;
+            border-radius: 5%;
+        } */
+        /* .menu-bar ul li:hover .sub-menu-1 ul
+        {
+            display: block;
+            margin: 5px;
+        } */
+        /* .menu-bar ul li:hover .sub-menu-1 ul li
+        {
+            width: 150px;
+            padding: 6px;
+            border-bottom: 1px dotted #fff;
+            background: transparent;
+            border-radius: 0;
+            text-align: left;
+        } */
+        /* .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+        {
+            border-bottom: none;
+        } */
+
+        /* .fa-angle-right
+        {
+            float: right;
+        }
+        .sub-menu-2
+        {
+            display:none;
+        }
+        .hover-me:hover .sub-menu-2 
+        {
+            position: absolute;
+            display: block;
+            margin-top: -40px;
+            margin-left: 140px;
+            background: rgb(40, 10, 80);
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="menu-bar">
+        <ul>       
+            <li class=""><a href="#"><b>Home</b></a></li>
+            <li><a href="adopt.html"><b>Adopt</b></a></li>
+            <li><a href="feedback.html"><b>Contact Us</b></a></li>
+            <li><a href="index.html"></i><b>Log-out<b></a></li>
+        </ul>        
+    </div><br><br><br><br>
+    <div>
+        <h1>ADOPT ME, DON'T BUY !</h1>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>  
+</body>
+</html>
